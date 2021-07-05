@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
+options: "b5cfd7f35c3ce011dd9f03fcaff4de53"
+build_time: [1625465924, 157701000]
+inputs:
+  "/Users/melikebusraayhan/Repository/ios_base/iBase/iBase/ViewController.swift": [1625435002, 968995722]
+  "/Users/melikebusraayhan/Repository/ios_base/iBase/iBase/AppDelegate.swift": [1625465921, 852192020]
+  "/Users/melikebusraayhan/Repository/ios_base/iBase/iBase/SceneDelegate.swift": !dirty [1625435002, 966265290]
