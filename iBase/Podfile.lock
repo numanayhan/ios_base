@@ -1,16 +1,20 @@
 PODS:
+  - SwiftEventBus (5.0.0)
   - SwiftLint (0.42.0)
 
 DEPENDENCIES:
+  - SwiftEventBus
   - SwiftLint
 
 SPEC REPOS:
   trunk:
+    - SwiftEventBus
     - SwiftLint
 
 SPEC CHECKSUMS:
+  SwiftEventBus: b30f617a6aca5a9336464b4d3f5931034762f2d5
   SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
 
-PODFILE CHECKSUM: a86b1640687a4539edac0cbedfda5473a1d5c223
+PODFILE CHECKSUM: 8f1b2c0a7842c5b3ece86a5cbd7503ec75a9b494
 
 COCOAPODS: 1.10.1
