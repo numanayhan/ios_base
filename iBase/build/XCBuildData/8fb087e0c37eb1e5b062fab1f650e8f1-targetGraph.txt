@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+SwiftLint in Pods
+Pods-iBase in Pods, depends on:
+SwiftLint in Pods (explicit)
+iBase in iBase, depends on:
+Pods-iBase in Pods (implicit dependency via file 'Pods_iBase.framework' in build phase 'Link Binary'
