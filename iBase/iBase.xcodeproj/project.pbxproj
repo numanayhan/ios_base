@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,7 @@
 		3B1FD90B269262FA0087D3E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1FD90A269262FA0087D3E9 /* SceneDelegate.swift */; };
 		3B1FD912269262FC0087D3E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1FD911269262FC0087D3E9 /* Assets.xcassets */; };
 		3B1FD915269262FC0087D3E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1FD913269262FC0087D3E9 /* LaunchScreen.storyboard */; };
-		3BC8F0F92692EC0F006FE314 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8F0F82692EC0F006FE314 /* Login.swift */; };
+		3BC8F0F92692EC0F006FE314 /* LoginLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8F0F82692EC0F006FE314 /* LoginLogs.swift */; };
 		3BD3A5D726950F54008257FC /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD3A5D626950F54008257FC /* Launch.storyboard */; };
 		3BD3A5D926950F62008257FC /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3A5D826950F62008257FC /* Launch.swift */; };
 		3BD3A5DB26950F84008257FC /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3A5DA26950F84008257FC /* Views.swift */; };
@@ -39,7 +39,7 @@
 		3B1FD911269262FC0087D3E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B1FD914269262FC0087D3E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B1FD916269262FC0087D3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BC8F0F82692EC0F006FE314 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		3BC8F0F82692EC0F006FE314 /* LoginLogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginLogs.swift; sourceTree = "<group>"; };
 		3BD3A5D626950F54008257FC /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		3BD3A5D826950F62008257FC /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
 		3BD3A5DA26950F84008257FC /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 		3BC8F0F72692EC01006FE314 /* Logs */ = {
 			isa = PBXGroup;
 			children = (
-				3BC8F0F82692EC0F006FE314 /* Login.swift */,
+				3BC8F0F82692EC0F006FE314 /* LoginLogs.swift */,
 			);
 			path = Logs;
 			sourceTree = "<group>";
@@ -272,7 +272,7 @@
 				3B1FD901269262FA0087D3E9 /* Sources */,
 				3B1FD902269262FA0087D3E9 /* Frameworks */,
 				3B1FD903269262FA0087D3E9 /* Resources */,
-				3BD3A5FA26951373008257FC /* ShellScript */,
+				3BD3A5FA26951373008257FC /* SwiftLint */,
 				2931C07465894E35F4638B53 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -350,7 +350,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iBase/Pods-iBase-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3BD3A5FA26951373008257FC /* ShellScript */ = {
+		3BD3A5FA26951373008257FC /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -359,13 +359,14 @@
 			);
 			inputPaths = (
 			);
+			name = SwiftLint;
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 		67425DCADEE01211DABB8FA1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -409,7 +410,7 @@
 				3B1FD90B269262FA0087D3E9 /* SceneDelegate.swift in Sources */,
 				3BD3A5D926950F62008257FC /* Launch.swift in Sources */,
 				3BD3A5DB26950F84008257FC /* Views.swift in Sources */,
-				3BC8F0F92692EC0F006FE314 /* Login.swift in Sources */,
+				3BC8F0F92692EC0F006FE314 /* LoginLogs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,9 @@
+Target dependency graph (4 targets)
+SwiftEventBus in Pods
+SwiftLint in Pods
+Pods-iBase in Pods, depends on:
+SwiftEventBus in Pods (explicit)
+SwiftLint in Pods (explicit)
+iBase in iBase, depends on:
+Pods-iBase in Pods (implicit dependency via file 'Pods_iBase.framework' in build phase 'Link Binary'
+SwiftEventBus in Pods (implicit dependency via options '-framework SwiftEventBus' in build setting 'OTHER_LDFLAGS'
