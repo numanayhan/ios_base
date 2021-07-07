@@ -272,7 +272,7 @@
 				3B1FD901269262FA0087D3E9 /* Sources */,
 				3B1FD902269262FA0087D3E9 /* Frameworks */,
 				3B1FD903269262FA0087D3E9 /* Resources */,
-				3BD3A5FA26951373008257FC /* SwiftLint */,
+				3BD3A5FA26951373008257FC /* Swiftlint */,
 				2931C07465894E35F4638B53 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -350,7 +350,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iBase/Pods-iBase-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3BD3A5FA26951373008257FC /* SwiftLint */ = {
+		3BD3A5FA26951373008257FC /* Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -359,7 +359,7 @@
 			);
 			inputPaths = (
 			);
-			name = SwiftLint;
+			name = Swiftlint;
 			outputFileListPaths = (
 			);
 			outputPaths = (

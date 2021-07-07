@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
 options: "d6e4589e6e95b584b5ce540e42eeec27"
-build_time: [1625689534, 671213000]
+build_time: [1625690227, 322988000]
 inputs:
   "/Users/melikebusraayhan/Repository/ios_base/iBase/iBase/Pages/Tabs/Tabs.swift": [1625610477, 48436629]
   "/Users/melikebusraayhan/Repository/ios_base/iBase/iBase/Extentions/Fonts.swift": [1625610271, 940765019]
@@ -15,4 +15,4 @@ inputs:
   "/Users/melikebusraayhan/Repository/ios_base/iBase/iBase/Units/SceneDelegate.swift": [1625610514, 862681579]
   "/Users/melikebusraayhan/Repository/ios_base/iBase/iBase/Pages/Launch/Launch.swift": [1625610218, 279556037]
   "/Users/melikebusraayhan/Repository/ios_base/iBase/iBase/Extentions/Views.swift": [1625610244, 49066564]
-  "/Users/melikebusraayhan/Repository/ios_base/iBase/iBase/Logs/LoginLogs.swift": [1625470411, 287045203]
+  "/Users/melikebusraayhan/Repository/ios_base/iBase/iBase/Logs/LoginLogs.swift": [1625689547, 317549261]
