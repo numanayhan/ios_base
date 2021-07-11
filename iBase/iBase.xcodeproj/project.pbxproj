@@ -27,6 +27,7 @@
 		3BD3A5F52695105D008257FC /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3A5F42695105D008257FC /* Rules.swift */; };
 		3BD3A5F72695106D008257FC /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3A5F62695106D008257FC /* Tabs.swift */; };
 		3BD3A5F92695107B008257FC /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3A5F82695107B008257FC /* SideMenu.swift */; };
+		3BD3A5FC2696FFE5008257FC /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3A5FB2696FFE4008257FC /* Network.swift */; };
 		6651CA39D6061C766D12160F /* Pods_iBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D46C88132DD0704CCF7D4A /* Pods_iBase.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		3BD3A5F42695105D008257FC /* Rules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
 		3BD3A5F62695106D008257FC /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
 		3BD3A5F82695107B008257FC /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		3BD3A5FB2696FFE4008257FC /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		7E8B6249AC446625225D9549 /* Pods-iBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBase.debug.xcconfig"; path = "Target Support Files/Pods-iBase/Pods-iBase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,7 +99,6 @@
 				3BD3A5D126950EFA008257FC /* Extentions */,
 				3BD3A5D026950EF5008257FC /* Pages */,
 				3BD3A5CF26950EED008257FC /* Storyboard */,
-				3BD3A5CE26950EE4008257FC /* Controller */,
 				3BD3A5CD26950EDF008257FC /* Models */,
 				3BD3A5CC26950EDA008257FC /* Utility */,
 				3BC8F0F72692EC01006FE314 /* Logs */,
@@ -117,6 +118,7 @@
 		3BD3A5CC26950EDA008257FC /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				3BD3A5FB2696FFE4008257FC /* Network.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -126,13 +128,6 @@
 			children = (
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		3BD3A5CE26950EE4008257FC /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		3BD3A5CF26950EED008257FC /* Storyboard */ = {
@@ -402,6 +397,7 @@
 				3BD3A5F326951054008257FC /* Register.swift in Sources */,
 				3BD3A5F92695107B008257FC /* SideMenu.swift in Sources */,
 				3BD3A5F12695104C008257FC /* Login.swift in Sources */,
+				3BD3A5FC2696FFE5008257FC /* Network.swift in Sources */,
 				3BD3A5E326950FA9008257FC /* Colors.swift in Sources */,
 				3B1FD909269262FA0087D3E9 /* AppDelegate.swift in Sources */,
 				3BD3A5F52695105D008257FC /* Rules.swift in Sources */,

@@ -1,12 +1,13 @@
 version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
 options: "d6e4589e6e95b584b5ce540e42eeec27"
-build_time: [1625690227, 322988000]
+build_time: [1625737375, 499202000]
 inputs:
   "/Users/melikebusraayhan/Repository/ios_base/iBase/iBase/Pages/Tabs/Tabs.swift": [1625610477, 48436629]
   "/Users/melikebusraayhan/Repository/ios_base/iBase/iBase/Extentions/Fonts.swift": [1625610271, 940765019]
   "/Users/melikebusraayhan/Repository/ios_base/iBase/iBase/Pages/Register/Register.swift": [1625610452, 170657678]
   "/Users/melikebusraayhan/Repository/ios_base/iBase/iBase/Pages/SideMenu/SideMenu.swift": [1625610491, 577099059]
   "/Users/melikebusraayhan/Repository/ios_base/iBase/iBase/Pages/Login/Login.swift": [1625610444, 498129609]
+  "/Users/melikebusraayhan/Repository/ios_base/iBase/iBase/Utility/Network.swift": [9223372036, 854775807]
   "/Users/melikebusraayhan/Repository/ios_base/iBase/iBase/Extentions/Colors.swift": [1625610280, 927644588]
   "/Users/melikebusraayhan/Repository/ios_base/iBase/iBase/Units/AppDelegate.swift": [1625465921, 852192020]
   "/Users/melikebusraayhan/Repository/ios_base/iBase/iBase/Pages/Rules/Rules.swift": [1625610460, 700588325]
