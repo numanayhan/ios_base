@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SwiftEventBus-Swift.h</key>
 		<data>
-		+yytQJ7795MXp5eS4tCLKkSZFo0=
+		XKNNI1oJldVnLEKNFaBsuIdjIfs=
 		</data>
 		<key>Headers/SwiftEventBus-umbrella.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ge8al87ZccctL9TR6CGLLk9PogY=
+		oDcJOQPMIYBPuCuoH3zkH1yWeHc=
 		</data>
 		<key>Modules/SwiftEventBus.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		ztACUm3MGkLrmvBwHx0IVVweFy0=
+		nQDTV6fFzoMeiYkqN51BLTCR9Xo=
 		</data>
 		<key>Modules/SwiftEventBus.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		ztACUm3MGkLrmvBwHx0IVVweFy0=
+		nQDTV6fFzoMeiYkqN51BLTCR9Xo=
 		</data>
 		<key>Modules/SwiftEventBus.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vOvE+JAsqI/rNUdrwnwbH0fHIqA=
+		zTL6MgU9v9t80Gap/XVBLkfltkc=
 		</data>
 		<key>Modules/SwiftEventBus.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BC4y15Kj6Y7TOZgYPdmHRHkPXnM=
+		V/zKsIZzxT6GKfdsHpzV/llUbHc=
 		</data>
 		<key>Modules/SwiftEventBus.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		vOvE+JAsqI/rNUdrwnwbH0fHIqA=
+		zTL6MgU9v9t80Gap/XVBLkfltkc=
 		</data>
 		<key>Modules/SwiftEventBus.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		BC4y15Kj6Y7TOZgYPdmHRHkPXnM=
+		V/zKsIZzxT6GKfdsHpzV/llUbHc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -49,21 +49,13 @@
 	<dict>
 		<key>Headers/SwiftEventBus-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+yytQJ7795MXp5eS4tCLKkSZFo0=
-			</data>
 			<key>hash2</key>
 			<data>
-			FkYVoMCUQKtHGYkfVM5siRQ0lrZ8FFvGL9F25vjIpjA=
+			BCCifSxjusm4cfGDKaoklGcD1A5jWbCxCQdSV3yfUSw=
 			</data>
 		</dict>
 		<key>Headers/SwiftEventBus-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Vi3p9f8OZXY3dukmYkKe+J9hRKA=
-			</data>
 			<key>hash2</key>
 			<data>
 			2Ol315hDWKPTj/71Gq/VggQLY4bdovKp6SpLi/BfDzU=
@@ -71,76 +63,48 @@
 		</dict>
 		<key>Modules/SwiftEventBus.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ztACUm3MGkLrmvBwHx0IVVweFy0=
-			</data>
 			<key>hash2</key>
 			<data>
-			tBSpRrHV/MQLL1V+clf73EZ/NPeV455dVOzrkWQypsM=
+			nhlG6W/YJ/+R1aYeOje8U7N0rMWKJpVIQpRTOJrqQ10=
 			</data>
 		</dict>
 		<key>Modules/SwiftEventBus.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ztACUm3MGkLrmvBwHx0IVVweFy0=
-			</data>
 			<key>hash2</key>
 			<data>
-			tBSpRrHV/MQLL1V+clf73EZ/NPeV455dVOzrkWQypsM=
+			nhlG6W/YJ/+R1aYeOje8U7N0rMWKJpVIQpRTOJrqQ10=
 			</data>
 		</dict>
 		<key>Modules/SwiftEventBus.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vOvE+JAsqI/rNUdrwnwbH0fHIqA=
-			</data>
 			<key>hash2</key>
 			<data>
-			pNYFiBrR4TCcKU7Gq5RGR/+3jdMoD+uzA+bL8opmO4w=
+			D02ffNzOjomC7+HGBLG7h74A4BZKe7JbhsUShG4fwGE=
 			</data>
 		</dict>
 		<key>Modules/SwiftEventBus.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BC4y15Kj6Y7TOZgYPdmHRHkPXnM=
-			</data>
 			<key>hash2</key>
 			<data>
-			GvLvaPcgnBf3O+v8WrKZnAxGuw6KLEoSmCGn7QRHsNE=
+			tXuUHq7nJA6F246LDepPQ/aoF+YESmO5u4GAjN5FbNk=
 			</data>
 		</dict>
 		<key>Modules/SwiftEventBus.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vOvE+JAsqI/rNUdrwnwbH0fHIqA=
-			</data>
 			<key>hash2</key>
 			<data>
-			pNYFiBrR4TCcKU7Gq5RGR/+3jdMoD+uzA+bL8opmO4w=
+			D02ffNzOjomC7+HGBLG7h74A4BZKe7JbhsUShG4fwGE=
 			</data>
 		</dict>
 		<key>Modules/SwiftEventBus.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BC4y15Kj6Y7TOZgYPdmHRHkPXnM=
-			</data>
 			<key>hash2</key>
 			<data>
-			GvLvaPcgnBf3O+v8WrKZnAxGuw6KLEoSmCGn7QRHsNE=
+			tXuUHq7nJA6F246LDepPQ/aoF+YESmO5u4GAjN5FbNk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LeUhdO1Hz3sLhk2c5xr8afJRjhs=
-			</data>
 			<key>hash2</key>
 			<data>
 			QlOymtnfq7n9HueQs9hvV5QMqdT7bpehMjvwPnkKaI4=

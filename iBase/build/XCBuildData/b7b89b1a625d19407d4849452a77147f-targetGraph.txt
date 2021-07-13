@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-Pods-iBase in Pods
-iBase in iBase, depends on:
-Pods-iBase in Pods (implicit dependency via file 'Pods_iBase.framework' in build phase 'Link Binary'

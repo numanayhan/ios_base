@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		ArXqFe4Wy1nxrWKojbeBt/VWG7Q=
+		fPK2FEhyKqYzsUi2FGaWA37yoLY=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,27 +14,71 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		/eGs13I+02uCGJ6V3g+pW1W+TX0=
+		NrCr32js9YA1vQqy8dxFJa3AKr4=
+		</data>
+		<key>Frameworks/RxCocoa.framework/Info.plist</key>
+		<data>
+		WXcgj1iLnhkLhRHAoMMw85qdqYI=
+		</data>
+		<key>Frameworks/RxCocoa.framework/RxCocoa</key>
+		<data>
+		PO/VAIZYnPm8BwVY4DfOOfapWTM=
+		</data>
+		<key>Frameworks/RxCocoa.framework/_CodeSignature/CodeResources</key>
+		<data>
+		cFrxRrxcL1C6WWtHVVe44fuhHNE=
+		</data>
+		<key>Frameworks/RxRelay.framework/Info.plist</key>
+		<data>
+		BNeqe58Z8NVYmI2W7x9mzlOuWPo=
+		</data>
+		<key>Frameworks/RxRelay.framework/RxRelay</key>
+		<data>
+		71R3tYoFbkvRk9juXZdATHgpx20=
+		</data>
+		<key>Frameworks/RxRelay.framework/_CodeSignature/CodeResources</key>
+		<data>
+		v39Gh3ZsYI26VqWdT5KV4hMdkqI=
+		</data>
+		<key>Frameworks/RxSwift.framework/Info.plist</key>
+		<data>
+		OuJ843YoGPEWn9riu/pZtoVA15w=
+		</data>
+		<key>Frameworks/RxSwift.framework/RxSwift</key>
+		<data>
+		vvs3EsF5BI0IkQ3UEYpHw9TDSsg=
+		</data>
+		<key>Frameworks/RxSwift.framework/_CodeSignature/CodeResources</key>
+		<data>
+		wMVpXev9xSiJEEWOChNwgbI++tE=
 		</data>
 		<key>Frameworks/SwiftEventBus.framework/Info.plist</key>
 		<data>
-		ge8al87ZccctL9TR6CGLLk9PogY=
+		oDcJOQPMIYBPuCuoH3zkH1yWeHc=
 		</data>
 		<key>Frameworks/SwiftEventBus.framework/SwiftEventBus</key>
 		<data>
-		djiad7bXb3d7w9NTwBdLSQu1HWo=
+		XWNNeEXxOnV7uLh5gAoxxGUKBAA=
 		</data>
 		<key>Frameworks/SwiftEventBus.framework/_CodeSignature/CodeResources</key>
 		<data>
-		PKwgrMlfTMzRk3mR2pqm4g7YPXQ=
+		m0W2yXpY11P9VmC9km0SgvqcWqE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		o8k9wUZAvLgZdCXKga6oaTasD4o=
+		cxytlJ5bjBtALuHx9m+rD7oWPtM=
 		</data>
 		<key>Launch.storyboardc/Info.plist</key>
 		<data>
-		GnMdGFfDuvwAuWJN7FS9ELLozY4=
+		Qd8qgj4DALsWZFCQyqlmHP+6i+c=
+		</data>
+		<key>Launch.storyboardc/Launch.nib</key>
+		<data>
+		cw8Bk4JWiLrfU/C9AQmUA5knml8=
+		</data>
+		<key>Launch.storyboardc/wNu-Ee-pNE-view-5aD-rf-BXe.nib</key>
+		<data>
+		oTBg5ctz8+mNnZaaGu9OriYEMJU=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -47,7 +91,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WnQ4ttR/qLkpg6HUx3gFyvXAbNc5qNDGIXAVMTjKHUE=
+			m76xDgOeVxpVLdXrwSXuFbjN7LfRR6IpnaPAFkJKS8k=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -61,35 +105,112 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uHKsp7eXND65K0sS55hcqjhugH3Vzxn0hZ7z938nxIw=
+			dZvf34pIaLPUw1UtvDm34YSQmbCStJVijMQ80HLTeu0=
+			</data>
+		</dict>
+		<key>Frameworks/RxCocoa.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ysuomnIivR1On+48yzcl3NrXliG3Ko2CI3XDI/uXNZg=
+			</data>
+		</dict>
+		<key>Frameworks/RxCocoa.framework/RxCocoa</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			d8Yattxln0ijmWoFtPZAnQPVupM49YDzgXpQPTcwhvs=
+			</data>
+		</dict>
+		<key>Frameworks/RxCocoa.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PDmlZV1IZJsrdJ1CJj/hicGNpro/tKMJ5pw+fhfgN7U=
+			</data>
+		</dict>
+		<key>Frameworks/RxRelay.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NAhN8PTtLAtewZFLzitA3e/V6qqWzJ4+PjTPQwkbu44=
+			</data>
+		</dict>
+		<key>Frameworks/RxRelay.framework/RxRelay</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XV8FK5oapXgS27ZuckClNOCBdKOJZmH+rw23Q6kn7cA=
+			</data>
+		</dict>
+		<key>Frameworks/RxRelay.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a28EDWRD9eVkFtUQ2P0p1RVkPQ4D7EEAahEcgAWzsos=
+			</data>
+		</dict>
+		<key>Frameworks/RxSwift.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wCK2KeoZe9x8FPL/iNDVOctTwIkYrVNiBQsJtWilt6M=
+			</data>
+		</dict>
+		<key>Frameworks/RxSwift.framework/RxSwift</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WHHW0p3E7aZYon2Iux1pHBrtghNWZdhjiudWF2i4nv4=
+			</data>
+		</dict>
+		<key>Frameworks/RxSwift.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JWcowlMOuI76mGMsEJdUXDGnUzpPpHeNMxvmHdPcIJc=
 			</data>
 		</dict>
 		<key>Frameworks/SwiftEventBus.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EPIzz8OgGB8ZjDV/RWpQ2hzJvCgnkwFfI9+U97OpdeY=
+			EF83ekyGYjjYphd7eNUMmfkWjxlCEmUdbCEvbzsBYMs=
 			</data>
 		</dict>
 		<key>Frameworks/SwiftEventBus.framework/SwiftEventBus</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dJqRrPJpfETpZtGntS8GcqQM1ePtSb2PKQRvr7qdSU8=
+			ur1toB0NfKwtpZOQ767YKwSPNHp0XMRLjT7tViZkSVI=
 			</data>
 		</dict>
 		<key>Frameworks/SwiftEventBus.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LCm6nmXCmcU8XQZpnwkVqcplrle22j4aLqeCV0JB7ZA=
+			Em6tVWDalu6TuQdlUUtH4tsIEFWpFh5skTUSi11++h4=
 			</data>
 		</dict>
 		<key>Launch.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9gq+m2SfIqZdO4RnP+Q5bwx0h1nftPpvwkJZZ8jBiZE=
+			hYcnMatvNfn+LcWNCKcCx/0ZeEFQyB/lDFRy8WPvTUA=
+			</data>
+		</dict>
+		<key>Launch.storyboardc/Launch.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5W+d33ipqZPnLwGboM2VulcLBEEE//r0O3/bmdvTfFk=
+			</data>
+		</dict>
+		<key>Launch.storyboardc/wNu-Ee-pNE-view-5aD-rf-BXe.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			b95Gvs4+st+ijSe3DWvS8UmSztIpSg66MXv42HVsJyo=
 			</data>
 		</dict>
 	</dict>

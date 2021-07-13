@@ -1,5 +1,5 @@
-version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
-options: "e8bfc77d0be8eebee4ae92f37f99ef1c"
-build_time: [1625737344, 332735000]
+version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+options: "62b9f26c961fca4574ff083d1019100e"
+build_time: [1626018960, 549625000]
 inputs:
   "/Users/melikebusraayhan/Repository/ios_base/iBase/Pods/SwiftEventBus/SwiftEventBus/SwiftEventBus.swift": [1625611925, 824455034]

@@ -7,9 +7,9 @@
 
 import Foundation
 
-
 class LoginLog: NSObject {
-    func errorLogin(msg:String) -> String {
-        return msg 
+    func errorLogin(_ msg:String) -> String {
+
+        return msg
     }
 }

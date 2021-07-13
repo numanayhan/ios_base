@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+options: "1f2083c11c476d2e7c3d3eb342e8edd5"
+build_time: [1626019030, 849093000]
+inputs:
+  "/Users/melikebusraayhan/Repository/ios_base/iBase/Pods/RxRelay/RxRelay/BehaviorRelay.swift": [1626018049, 352008033]
+  "/Users/melikebusraayhan/Repository/ios_base/iBase/Pods/RxRelay/RxRelay/Observable+Bind.swift": [1626018049, 350961813]
+  "/Users/melikebusraayhan/Repository/ios_base/iBase/Pods/RxRelay/RxRelay/PublishRelay.swift": [1626018049, 350263360]
+  "/Users/melikebusraayhan/Repository/ios_base/iBase/Pods/RxRelay/RxRelay/ReplayRelay.swift": [1626018049, 350590173]
+  "/Users/melikebusraayhan/Repository/ios_base/iBase/Pods/RxRelay/RxRelay/Utils.swift": [1626018049, 351541316]

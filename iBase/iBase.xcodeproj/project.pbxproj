@@ -11,6 +11,8 @@
 		3B1FD90B269262FA0087D3E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1FD90A269262FA0087D3E9 /* SceneDelegate.swift */; };
 		3B1FD912269262FC0087D3E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1FD911269262FC0087D3E9 /* Assets.xcassets */; };
 		3B1FD915269262FC0087D3E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1FD913269262FC0087D3E9 /* LaunchScreen.storyboard */; };
+		3B911035269C216800A046B2 /* Navbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B911034269C216800A046B2 /* Navbar.swift */; };
+		3BAA1822269B48A50093BEDE /* AppRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAA1821269B48A50093BEDE /* AppRoot.swift */; };
 		3BC8F0F92692EC0F006FE314 /* LoginLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC8F0F82692EC0F006FE314 /* LoginLogs.swift */; };
 		3BD3A5D726950F54008257FC /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD3A5D626950F54008257FC /* Launch.storyboard */; };
 		3BD3A5D926950F62008257FC /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3A5D826950F62008257FC /* Launch.swift */; };
@@ -40,6 +42,8 @@
 		3B1FD911269262FC0087D3E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B1FD914269262FC0087D3E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B1FD916269262FC0087D3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B911034269C216800A046B2 /* Navbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navbar.swift; sourceTree = "<group>"; };
+		3BAA1821269B48A50093BEDE /* AppRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoot.swift; sourceTree = "<group>"; };
 		3BC8F0F82692EC0F006FE314 /* LoginLogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginLogs.swift; sourceTree = "<group>"; };
 		3BD3A5D626950F54008257FC /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		3BD3A5D826950F62008257FC /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
@@ -186,6 +190,8 @@
 			children = (
 				3B1FD90A269262FA0087D3E9 /* SceneDelegate.swift */,
 				3B1FD908269262FA0087D3E9 /* AppDelegate.swift */,
+				3BAA1821269B48A50093BEDE /* AppRoot.swift */,
+				3B911034269C216800A046B2 /* Navbar.swift */,
 			);
 			path = Units;
 			sourceTree = "<group>";
@@ -399,12 +405,14 @@
 				3BD3A5F12695104C008257FC /* Login.swift in Sources */,
 				3BD3A5FC2696FFE5008257FC /* Network.swift in Sources */,
 				3BD3A5E326950FA9008257FC /* Colors.swift in Sources */,
+				3B911035269C216800A046B2 /* Navbar.swift in Sources */,
 				3B1FD909269262FA0087D3E9 /* AppDelegate.swift in Sources */,
 				3BD3A5F52695105D008257FC /* Rules.swift in Sources */,
 				3BD3A5DF26950F95008257FC /* Anchor.swift in Sources */,
 				3BD3A5DD26950F8D008257FC /* Controllers.swift in Sources */,
 				3B1FD90B269262FA0087D3E9 /* SceneDelegate.swift in Sources */,
 				3BD3A5D926950F62008257FC /* Launch.swift in Sources */,
+				3BAA1822269B48A50093BEDE /* AppRoot.swift in Sources */,
 				3BD3A5DB26950F84008257FC /* Views.swift in Sources */,
 				3BC8F0F92692EC0F006FE314 /* LoginLogs.swift in Sources */,
 			);
@@ -548,7 +556,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iBase/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -568,7 +576,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iBase/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

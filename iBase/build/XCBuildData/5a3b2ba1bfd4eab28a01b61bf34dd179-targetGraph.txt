@@ -1,0 +1,21 @@
+Target dependency graph (7 targets)
+RxSwift in Pods
+RxRelay in Pods, depends on:
+RxSwift in Pods (explicit)
+RxCocoa in Pods, depends on:
+RxRelay in Pods (explicit)
+RxSwift in Pods (explicit)
+SwiftEventBus in Pods
+SwiftLint in Pods
+Pods-iBase in Pods, depends on:
+RxCocoa in Pods (explicit)
+RxRelay in Pods (explicit)
+RxSwift in Pods (explicit)
+SwiftEventBus in Pods (explicit)
+SwiftLint in Pods (explicit)
+iBase in iBase, depends on:
+Pods-iBase in Pods (implicit dependency via file 'Pods_iBase.framework' in build phase 'Link Binary'
+RxCocoa in Pods (implicit dependency via options '-framework RxCocoa' in build setting 'OTHER_LDFLAGS'
+RxRelay in Pods (implicit dependency via options '-framework RxRelay' in build setting 'OTHER_LDFLAGS'
+RxSwift in Pods (implicit dependency via options '-framework RxSwift' in build setting 'OTHER_LDFLAGS'
+SwiftEventBus in Pods (implicit dependency via options '-framework SwiftEventBus' in build setting 'OTHER_LDFLAGS'

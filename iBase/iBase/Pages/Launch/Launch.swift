@@ -13,5 +13,12 @@ class Launch: UIViewController {
         super.viewDidLoad()
         
     }
+    override func viewWillAppear(_ animated: Bool) {
+//        if navigationController != nil {
+//            let navClear = NavbarClear()
+//            navClear.hide = true
+//            setNeedsStatusBarAppearanceUpdate()
+//        }
+    }
 
 }
