@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+target 'iBase' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  #Beatify Swift Language
+  pod 'SwiftLint'
+  #Notification Easy
+  pod 'SwiftEventBus'
+  #Bag and Observer
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RealmSwift'
+  #JWT Token Storage
+  pod 'SwiftKeychainWrapper'
+  #Story View
+  pod 'CubeTransitionInfiniteViewSwift'
+  #Request
+  pod 'Alamofire', '~> 5.4'
+  pod 'SwiftyJSON'
+  #Language 
+  pod 'LanguageManager-iOS'
+  # Pods for iBase
+
+end

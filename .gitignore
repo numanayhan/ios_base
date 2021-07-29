@@ -1,2 +1,51 @@
-/build
-/Pods
+ 
+
+
+# Mac OS X Finder
+.DS_Store
+
+# Private Keys
+*.pem
+
+# Xcode legacy
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.hmap
+*.dSYM
+*.ipa
+
+# Xcode
+xcuserdata/
+project.xcworkspace/
+build/
+DerivedData/ 
+./Pods
+*.xcodeproj/*
+*.xcodeproj/project.pbxproj
+*.xcodeproj/xcshareddata
+**/xcshareddata/WorkspaceSettings.xcsettings
+*.pbxuser
+xcuserdata/
+*.moved-aside 
+!default.pbxuser
+# build products
+build/
+*.[oa]
+
+# repositories
+.hg
+.svn
+CVS
+
+# automatic backup files
+*~.nib
+*.swp
+*~
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
