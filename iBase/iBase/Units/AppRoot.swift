@@ -38,4 +38,32 @@ class AppRoot {
         window!.rootViewController = root
         window!.makeKeyAndVisible()
     }
+    func example(){
+        let root = DefaultNavigation(rootViewController: Examples())
+        root.hide = true
+        window!.rootViewController = root
+        window!.makeKeyAndVisible()
+    }
+    func langList(){
+        let root = DefaultNavigation(rootViewController: LangList())
+        root.hide = true
+        window!.rootViewController = root
+        window!.makeKeyAndVisible()
+    }
+    func tabMenu(){
+        let root = DefaultNavigation(rootViewController: SlideMenu())
+        root.hide = true
+        window!.rootViewController = root
+        window?.backgroundColor = .black
+        window!.makeKeyAndVisible() 
+        UINavigationBar.appearance().isTranslucent = false
+         
+    }
+    func stretchy(){
+         
+        window!.rootViewController = StretchyHeader(collectionViewLayout: StretchyHeaderLayout())
+        window!.makeKeyAndVisible()
+        
+         
+    }
 }

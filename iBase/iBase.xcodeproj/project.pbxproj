@@ -30,6 +30,29 @@
 		3BD3A5F72695106D008257FC /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3A5F62695106D008257FC /* Tabs.swift */; };
 		3BD3A5F92695107B008257FC /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3A5F82695107B008257FC /* SideMenu.swift */; };
 		3BD3A5FC2696FFE5008257FC /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3A5FB2696FFE4008257FC /* Network.swift */; };
+		4F4B284326A768AF0085DE14 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B284226A768AF0085DE14 /* Label.swift */; };
+		4F4B284826A8C5C00085DE14 /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B284726A8C5C00085DE14 /* Examples.swift */; };
+		4F4B284B26A8C9840085DE14 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B284A26A8C9840085DE14 /* RequestInterceptor.swift */; };
+		4F7FD0F526AC0CA700BE5F3F /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7FD0F426AC0CA700BE5F3F /* Alert.swift */; };
+		4FB5399226AEF70F00BA3C8C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5399126AEF70F00BA3C8C /* Theme.swift */; };
+		4FB5399426AEFCCD00BA3C8C /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5399326AEFCCD00BA3C8C /* Localization.swift */; };
+		4FB5399926AF009700BA3C8C /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5399826AF009700BA3C8C /* Languages.swift */; };
+		4FB5399A26AF213700BA3C8C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FB5399C26AF213700BA3C8C /* Localizable.strings */; };
+		4FB539A026AF291D00BA3C8C /* LangList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5399F26AF291D00BA3C8C /* LangList.swift */; };
+		4FB539A226AF38FE00BA3C8C /* LangCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB539A126AF38FE00BA3C8C /* LangCell.swift */; };
+		4FB539A826B06E8500BA3C8C /* ScrollableTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB539A726B06E8500BA3C8C /* ScrollableTabView.swift */; };
+		4FB539AA26B0755100BA3C8C /* BarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB539A926B0755100BA3C8C /* BarButton.swift */; };
+		4FB539AC26B079B300BA3C8C /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB539AB26B079B300BA3C8C /* SlideMenu.swift */; };
+		4FB539B726B16D9F00BA3C8C /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB539AD26B16D9E00BA3C8C /* OpenSans-Regular.ttf */; };
+		4FB539B826B16D9F00BA3C8C /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB539AE26B16D9E00BA3C8C /* OpenSans-Light.ttf */; };
+		4FB539BA26B16D9F00BA3C8C /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB539B026B16D9E00BA3C8C /* OpenSans-Bold.ttf */; };
+		4FB539BD26B16D9F00BA3C8C /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB539B326B16D9F00BA3C8C /* OpenSans-LightItalic.ttf */; };
+		4FB539BE26B16D9F00BA3C8C /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB539B426B16D9F00BA3C8C /* OpenSans-ExtraBold.ttf */; };
+		4FB539BF26B16D9F00BA3C8C /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB539B526B16D9F00BA3C8C /* OpenSans-ExtraBoldItalic.ttf */; };
+		4FB539C026B16D9F00BA3C8C /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB539B626B16D9F00BA3C8C /* OpenSans-SemiBold.ttf */; };
+		4FB539CB26B1E51400BA3C8C /* StretchyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB539CA26B1E51400BA3C8C /* StretchyHeader.swift */; };
+		4FB539CD26B1E92400BA3C8C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB539CC26B1E92400BA3C8C /* HeaderView.swift */; };
+		4FB539CF26B2A46A00BA3C8C /* StretchyHeaderLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB539CE26B2A46A00BA3C8C /* StretchyHeaderLayout.swift */; };
 		6651CA39D6061C766D12160F /* Pods_iBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D46C88132DD0704CCF7D4A /* Pods_iBase.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +84,31 @@
 		3BD3A5F62695106D008257FC /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
 		3BD3A5F82695107B008257FC /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		3BD3A5FB2696FFE4008257FC /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		4F4B284226A768AF0085DE14 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		4F4B284726A8C5C00085DE14 /* Examples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
+		4F4B284A26A8C9840085DE14 /* RequestInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestInterceptor.swift; sourceTree = "<group>"; };
+		4F7FD0F426AC0CA700BE5F3F /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		4FB5399126AEF70F00BA3C8C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		4FB5399326AEFCCD00BA3C8C /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		4FB5399526AEFDAE00BA3C8C /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4FB5399826AF009700BA3C8C /* Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Languages.swift; sourceTree = "<group>"; };
+		4FB5399B26AF213700BA3C8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4FB5399D26AF213A00BA3C8C /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4FB5399F26AF291D00BA3C8C /* LangList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangList.swift; sourceTree = "<group>"; };
+		4FB539A126AF38FE00BA3C8C /* LangCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangCell.swift; sourceTree = "<group>"; };
+		4FB539A726B06E8500BA3C8C /* ScrollableTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableTabView.swift; sourceTree = "<group>"; };
+		4FB539A926B0755100BA3C8C /* BarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButton.swift; sourceTree = "<group>"; };
+		4FB539AB26B079B300BA3C8C /* SlideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenu.swift; sourceTree = "<group>"; };
+		4FB539AD26B16D9E00BA3C8C /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "../../../../../Downloads/Open_Sans/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		4FB539AE26B16D9E00BA3C8C /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "../../../../../Downloads/Open_Sans/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		4FB539B026B16D9E00BA3C8C /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "../../../../../Downloads/Open_Sans/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		4FB539B326B16D9F00BA3C8C /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-LightItalic.ttf"; path = "../../../../../Downloads/Open_Sans/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		4FB539B426B16D9F00BA3C8C /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBold.ttf"; path = "../../../../../Downloads/Open_Sans/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4FB539B526B16D9F00BA3C8C /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBoldItalic.ttf"; path = "../../../../../Downloads/Open_Sans/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		4FB539B626B16D9F00BA3C8C /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-SemiBold.ttf"; path = "../../../../../Downloads/Open_Sans/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		4FB539CA26B1E51400BA3C8C /* StretchyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeader.swift; sourceTree = "<group>"; };
+		4FB539CC26B1E92400BA3C8C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		4FB539CE26B2A46A00BA3C8C /* StretchyHeaderLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderLayout.swift; sourceTree = "<group>"; };
 		7E8B6249AC446625225D9549 /* Pods-iBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBase.debug.xcconfig"; path = "Target Support Files/Pods-iBase/Pods-iBase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +145,7 @@
 		3B1FD907269262FA0087D3E9 /* iBase */ = {
 			isa = PBXGroup;
 			children = (
+				4F4B284926A8C9620085DE14 /* Services */,
 				3BD3A5D426950F13008257FC /* Units */,
 				3BD3A5D326950F0A008257FC /* Fonts */,
 				3BD3A5D226950F00008257FC /* Assets */,
@@ -145,6 +194,10 @@
 		3BD3A5D026950EF5008257FC /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				4FB539C926B1E4C600BA3C8C /* Stretchy */,
+				4FB539A626B06DF000BA3C8C /* SlideTabs */,
+				4FB5399E26AF290900BA3C8C /* Languages */,
+				4F4B284626A8C5A80085DE14 /* Example */,
 				3BD3A5EE26951023008257FC /* SideMenu */,
 				3BD3A5ED2695101B008257FC /* Tabs */,
 				3BD3A5EC26951013008257FC /* Rules */,
@@ -163,6 +216,13 @@
 				3BD3A5DE26950F95008257FC /* Anchor.swift */,
 				3BD3A5E026950FA0008257FC /* Fonts.swift */,
 				3BD3A5E226950FA9008257FC /* Colors.swift */,
+				4F4B284226A768AF0085DE14 /* Label.swift */,
+				4F7FD0F426AC0CA700BE5F3F /* Alert.swift */,
+				4FB5399126AEF70F00BA3C8C /* Theme.swift */,
+				4FB5399326AEFCCD00BA3C8C /* Localization.swift */,
+				4FB5399C26AF213700BA3C8C /* Localizable.strings */,
+				4FB5399826AF009700BA3C8C /* Languages.swift */,
+				4FB539A926B0755100BA3C8C /* BarButton.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -181,6 +241,13 @@
 		3BD3A5D326950F0A008257FC /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				4FB539B026B16D9E00BA3C8C /* OpenSans-Bold.ttf */,
+				4FB539B426B16D9F00BA3C8C /* OpenSans-ExtraBold.ttf */,
+				4FB539B526B16D9F00BA3C8C /* OpenSans-ExtraBoldItalic.ttf */,
+				4FB539AE26B16D9E00BA3C8C /* OpenSans-Light.ttf */,
+				4FB539B326B16D9F00BA3C8C /* OpenSans-LightItalic.ttf */,
+				4FB539AD26B16D9E00BA3C8C /* OpenSans-Regular.ttf */,
+				4FB539B626B16D9F00BA3C8C /* OpenSans-SemiBold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -245,6 +312,50 @@
 			path = SideMenu;
 			sourceTree = "<group>";
 		};
+		4F4B284626A8C5A80085DE14 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				4F4B284726A8C5C00085DE14 /* Examples.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		4F4B284926A8C9620085DE14 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4F4B284A26A8C9840085DE14 /* RequestInterceptor.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4FB5399E26AF290900BA3C8C /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				4FB5399F26AF291D00BA3C8C /* LangList.swift */,
+				4FB539A126AF38FE00BA3C8C /* LangCell.swift */,
+			);
+			path = Languages;
+			sourceTree = "<group>";
+		};
+		4FB539A626B06DF000BA3C8C /* SlideTabs */ = {
+			isa = PBXGroup;
+			children = (
+				4FB539A726B06E8500BA3C8C /* ScrollableTabView.swift */,
+				4FB539AB26B079B300BA3C8C /* SlideMenu.swift */,
+			);
+			path = SlideTabs;
+			sourceTree = "<group>";
+		};
+		4FB539C926B1E4C600BA3C8C /* Stretchy */ = {
+			isa = PBXGroup;
+			children = (
+				4FB539CA26B1E51400BA3C8C /* StretchyHeader.swift */,
+				4FB539CC26B1E92400BA3C8C /* HeaderView.swift */,
+				4FB539CE26B2A46A00BA3C8C /* StretchyHeaderLayout.swift */,
+			);
+			path = Stretchy;
+			sourceTree = "<group>";
+		};
 		6A6CDB1E2FCEAB520CF4C487 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +417,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 3B1FD8FC269262FA0087D3E9;
 			productRefGroup = 3B1FD906269262FA0087D3E9 /* Products */;
@@ -322,12 +434,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FB539C026B16D9F00BA3C8C /* OpenSans-SemiBold.ttf in Resources */,
+				4FB539BA26B16D9F00BA3C8C /* OpenSans-Bold.ttf in Resources */,
+				4FB539BD26B16D9F00BA3C8C /* OpenSans-LightItalic.ttf in Resources */,
 				3BD3A5E726950FDA008257FC /* Launch.xcassets in Resources */,
 				3B1FD915269262FC0087D3E9 /* LaunchScreen.storyboard in Resources */,
 				3BD3A5E526950FD0008257FC /* Login.xcassets in Resources */,
+				4FB539BF26B16D9F00BA3C8C /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				3B1FD912269262FC0087D3E9 /* Assets.xcassets in Resources */,
 				3BD3A5E926950FE3008257FC /* Register.xcassets in Resources */,
 				3BD3A5D726950F54008257FC /* Launch.storyboard in Resources */,
+				4FB539B826B16D9F00BA3C8C /* OpenSans-Light.ttf in Resources */,
+				4FB539B726B16D9F00BA3C8C /* OpenSans-Regular.ttf in Resources */,
+				4FB5399A26AF213700BA3C8C /* Localizable.strings in Resources */,
+				4FB539BE26B16D9F00BA3C8C /* OpenSans-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,19 +519,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BD3A5F72695106D008257FC /* Tabs.swift in Sources */,
+				4F4B284B26A8C9840085DE14 /* RequestInterceptor.swift in Sources */,
 				3BD3A5E126950FA0008257FC /* Fonts.swift in Sources */,
+				4FB5399226AEF70F00BA3C8C /* Theme.swift in Sources */,
 				3BD3A5F326951054008257FC /* Register.swift in Sources */,
 				3BD3A5F92695107B008257FC /* SideMenu.swift in Sources */,
 				3BD3A5F12695104C008257FC /* Login.swift in Sources */,
+				4FB539A026AF291D00BA3C8C /* LangList.swift in Sources */,
 				3BD3A5FC2696FFE5008257FC /* Network.swift in Sources */,
 				3BD3A5E326950FA9008257FC /* Colors.swift in Sources */,
+				4F7FD0F526AC0CA700BE5F3F /* Alert.swift in Sources */,
 				3B911035269C216800A046B2 /* Navbar.swift in Sources */,
+				4FB539A826B06E8500BA3C8C /* ScrollableTabView.swift in Sources */,
+				4F4B284826A8C5C00085DE14 /* Examples.swift in Sources */,
 				3B1FD909269262FA0087D3E9 /* AppDelegate.swift in Sources */,
+				4FB539AA26B0755100BA3C8C /* BarButton.swift in Sources */,
 				3BD3A5F52695105D008257FC /* Rules.swift in Sources */,
+				4FB539AC26B079B300BA3C8C /* SlideMenu.swift in Sources */,
+				4FB539CF26B2A46A00BA3C8C /* StretchyHeaderLayout.swift in Sources */,
+				4FB5399426AEFCCD00BA3C8C /* Localization.swift in Sources */,
+				4FB539CD26B1E92400BA3C8C /* HeaderView.swift in Sources */,
+				4FB539A226AF38FE00BA3C8C /* LangCell.swift in Sources */,
+				4FB539CB26B1E51400BA3C8C /* StretchyHeader.swift in Sources */,
 				3BD3A5DF26950F95008257FC /* Anchor.swift in Sources */,
 				3BD3A5DD26950F8D008257FC /* Controllers.swift in Sources */,
 				3B1FD90B269262FA0087D3E9 /* SceneDelegate.swift in Sources */,
+				4FB5399926AF009700BA3C8C /* Languages.swift in Sources */,
 				3BD3A5D926950F62008257FC /* Launch.swift in Sources */,
+				4F4B284326A768AF0085DE14 /* Label.swift in Sources */,
 				3BAA1822269B48A50093BEDE /* AppRoot.swift in Sources */,
 				3BD3A5DB26950F84008257FC /* Views.swift in Sources */,
 				3BC8F0F92692EC0F006FE314 /* LoginLogs.swift in Sources */,
@@ -425,8 +560,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				3B1FD914269262FC0087D3E9 /* Base */,
+				4FB5399526AEFDAE00BA3C8C /* tr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4FB5399C26AF213700BA3C8C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FB5399B26AF213700BA3C8C /* en */,
+				4FB5399D26AF213A00BA3C8C /* tr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -436,6 +581,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -497,6 +643,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

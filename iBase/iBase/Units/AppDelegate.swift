@@ -6,19 +6,22 @@
 //
 
 import UIKit
-
-
+import LanguageManager_iOS
+ 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     var appRoot : AppRoot?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
-
+        
+        
+        
+        LanguageManager.shared.defaultLanguage = .en
+        
         window = UIWindow(frame: UIScreen.main.bounds)
         appRoot = AppRoot.init(window: window!)
-        appRoot?.startApp()
+        appRoot?.stretchy()
 
         return true
     }

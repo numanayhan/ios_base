@@ -1,0 +1,14 @@
+/* 
+  Language.strings
+  iBase
+
+  Created by Numan Ayhan on 26.07.2021.
+  
+*/
+"lang" = "en";
+"language" = "App Language";
+"ok"  = "Ok";
+"yes"  =  "Yes";
+"no" =  "No";
+"done" = "Done";
+"cancel" = "Cancel";
