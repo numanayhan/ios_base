@@ -13,7 +13,11 @@ extension UIViewController {
     func alert(_ title:String , _ msg:String ){
         
         let alert = UIAlertController(title:title, message: msg, preferredStyle: .alert)
-         
+        let when = DispatchTime.now() + 2
+        DispatchQueue.main.asyncAfter(deadline: when){
+          // your code with delay
+          alert.dismiss(animated: true, completion: nil)
+        }
         self.present(alert, animated: true)
     }
     func alertAction(_ title:String , _ msg:String  )  {

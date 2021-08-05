@@ -10,40 +10,7 @@ import Foundation
 //public protocol ScrollableDelegate:AnyObject{
 //    func scrollable(_ tableView: ScrollableTabView, didTabAt index: Int)
 //}
-
-class FirstTab: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        setLayout()
-    }
-    
-    func setLayout(){
-        view.backgroundColor = .green
-        print("first")
-    }
-}
-class SecondTab: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        setLayout()
-    }
-    func setLayout(){
-        view.backgroundColor = .red
-        print("second")
-    }
-}
-class Container: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        setLayout()
-    }
-    func setLayout(){
-        
-        view.backgroundColor = .black
-        
-    }
-}
+ 
 class TitleBar: UIViewController {
     
     var firstTab : UIBarButtonItem!

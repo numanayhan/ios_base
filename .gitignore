@@ -24,6 +24,9 @@ project.xcworkspace/
 build/
 DerivedData/ 
 ./Pods
+/Pods  
+*.Pods
+Pods/
 *.xcodeproj/*
 *.xcodeproj/project.pbxproj
 *.xcodeproj/xcshareddata

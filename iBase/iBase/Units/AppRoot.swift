@@ -50,8 +50,8 @@ class AppRoot {
         window!.rootViewController = root
         window!.makeKeyAndVisible()
     }
-    func tabMenu(){
-        let root = DefaultNavigation(rootViewController: SlideMenu())
+    func topMenu(){
+        let root = DefaultNavigation(rootViewController: TopMenu())
         root.hide = true
         window!.rootViewController = root
         window?.backgroundColor = .black
@@ -65,5 +65,30 @@ class AppRoot {
         window!.makeKeyAndVisible()
         
          
+    }
+    func login(){
+         
+        window!.rootViewController = Login()
+        window!.makeKeyAndVisible()
+        
+         
+    }
+    func list(){
+         
+        let root = DefaultNavigation(rootViewController: Collection())
+        root.hide = true
+        window!.rootViewController = root
+        window?.backgroundColor = .black
+        window!.makeKeyAndVisible()
+        UINavigationBar.appearance().isTranslucent = false
+    }
+    func menuTop(){
+        let root = DefaultNavigation(rootViewController: MenuTop())
+        root.hide = true
+        window!.rootViewController = root
+        window?.backgroundColor = .black
+        window!.makeKeyAndVisible()
+        
+        UINavigationBar.appearance().isTranslucent = false
     }
 }

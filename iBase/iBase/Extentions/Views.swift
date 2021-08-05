@@ -11,7 +11,7 @@ struct AnchoredConstraints {
     var top, leading, bottom, trailing, width, height: NSLayoutConstraint?
 }
 extension UIView {
-    @discardableResult
+    
     func anchor(top: NSLayoutYAxisAnchor?, left: NSLayoutXAxisAnchor?, bottom: NSLayoutYAxisAnchor?, right: NSLayoutXAxisAnchor?, paddingTop: CGFloat, paddingLeft: CGFloat, paddingBottom: CGFloat, paddingRight: CGFloat, width: CGFloat, height: CGFloat) {
 
             translatesAutoresizingMaskIntoConstraints = false
@@ -77,5 +77,12 @@ extension UIView {
             heightAnchor.constraint(equalToConstant: size.height).isActive = true
         }
     }
-    
+    func blur(){
+        let blurEffect = UIBlurEffect(style: UIBlurEffect.Style.extraLight)
+        let blurEffectView = UIVisualEffectView(effect: blurEffect)
+        blurEffectView.frame = self.bounds
+        blurEffectView.alpha = 0.7 
+        blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        self.addSubview(blurEffectView)
+    }
 }

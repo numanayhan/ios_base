@@ -20,9 +20,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         LanguageManager.shared.defaultLanguage = .en
         
         window = UIWindow(frame: UIScreen.main.bounds)
-        appRoot = AppRoot.init(window: window!)
-        appRoot?.stretchy()
-
+        window?.backgroundColor = .black
+        window?.makeKeyAndVisible()
+        appRoot = AppRoot(window: window!)
+        appRoot?.login()
+        UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().barTintColor = .black
         return true
     }
 

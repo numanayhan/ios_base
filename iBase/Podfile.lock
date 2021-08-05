@@ -1,34 +1,74 @@
 PODS:
+  - Alamofire (5.4.3)
+  - CubeTransitionInfiniteViewSwift (1.0.4)
+  - LanguageManager-iOS (1.2.5)
+  - Realm (10.11.0):
+    - Realm/Headers (= 10.11.0)
+  - Realm/Headers (10.11.0)
+  - RealmSwift (10.11.0):
+    - Realm (= 10.11.0)
   - RxCocoa (6.1.0):
     - RxRelay (= 6.1.0)
     - RxSwift (= 6.1.0)
   - RxRelay (6.1.0):
     - RxSwift (= 6.1.0)
   - RxSwift (6.1.0)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - SDWebImagePDFCoder (0.8.0):
+    - SDWebImage (~> 5.10)
   - SwiftEventBus (5.0.0)
+  - SwiftKeychainWrapper (4.0.1)
   - SwiftLint (0.42.0)
+  - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - CubeTransitionInfiniteViewSwift
+  - LanguageManager-iOS
+  - RealmSwift
   - RxCocoa
   - RxSwift
+  - SDWebImagePDFCoder
   - SwiftEventBus
+  - SwiftKeychainWrapper
   - SwiftLint
+  - SwiftyJSON
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - CubeTransitionInfiniteViewSwift
+    - LanguageManager-iOS
+    - Realm
+    - RealmSwift
     - RxCocoa
     - RxRelay
     - RxSwift
+    - SDWebImage
+    - SDWebImagePDFCoder
     - SwiftEventBus
+    - SwiftKeychainWrapper
     - SwiftLint
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  CubeTransitionInfiniteViewSwift: 6b535b53bf138ff6d3ad7ae62c02402c9f259a2d
+  LanguageManager-iOS: 049345fe4d1c5fbe22af93d438540917f4936359
+  Realm: 39ff23f0f709cd4ed93eb47ee6593c2158945b38
+  RealmSwift: 42713e09a8631070d6c12c3c5fb22b8edc1daa41
   RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
   RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
   RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SDWebImagePDFCoder: 999ba0184a07bbaffb73484b169ca01d25d64562
   SwiftEventBus: b30f617a6aca5a9336464b4d3f5931034762f2d5
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
   SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 567c0134f33cc6dc48540191950685506187c637
+PODFILE CHECKSUM: 14056fbcf5af8e43abb940526aab0b6d7d99b2d4
 
 COCOAPODS: 1.10.1

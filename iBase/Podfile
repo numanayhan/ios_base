@@ -24,4 +24,6 @@ target 'iBase' do
   pod 'LanguageManager-iOS'
   # Pods for iBase
 
+  pod 'SDWebImagePDFCoder'
+
 end

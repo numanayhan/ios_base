@@ -47,7 +47,6 @@ class StretchyHeader: UICollectionViewController,UICollectionViewDelegateFlowLay
             headerView?.animator.startAnimation()
             return
         }
-        
         headerView?.animator.fractionComplete = abs(contentOffsetY) / 100
     }
     

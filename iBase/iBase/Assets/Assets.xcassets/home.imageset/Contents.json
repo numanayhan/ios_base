@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "homed.png",
+      "filename" : "dashboard.png",
       "idiom" : "iphone",
       "scale" : "1x"
     },
     {
-      "filename" : "homed@2x.png",
+      "filename" : "dashboard@2x.png",
       "idiom" : "iphone",
       "scale" : "2x"
     },
     {
-      "filename" : "homed@3x.png",
+      "filename" : "dashboard@3x.png",
       "idiom" : "iphone",
       "scale" : "3x"
     }
