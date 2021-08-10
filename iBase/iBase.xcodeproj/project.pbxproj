@@ -68,6 +68,11 @@
 		4FD6DCC426B9EE0C00C0A35C /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6DCC326B9EE0C00C0A35C /* MenuBar.swift */; };
 		4FD6DCCB26BAB15600C0A35C /* MenuBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6DCCA26BAB15600C0A35C /* MenuBarCell.swift */; };
 		4FD6DCCD26BABC2500C0A35C /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6DCCC26BABC2500C0A35C /* MenuButton.swift */; };
+		4FD6DCCF26BC3C7600C0A35C /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6DCCE26BC3C7600C0A35C /* MenuBarView.swift */; };
+		4FD6DCD126BC3DA100C0A35C /* MenuSubViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6DCD026BC3DA100C0A35C /* MenuSubViewCell.swift */; };
+		4FD6DCD426BD2C9300C0A35C /* SlideCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6DCD326BD2C9300C0A35C /* SlideCollection.swift */; };
+		4FD6DCD626BD2D5100C0A35C /* SlideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6DCD526BD2D5100C0A35C /* SlideCell.swift */; };
+		4FD6DCD826BD9ED500C0A35C /* Menu.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD6DCD726BD9ED500C0A35C /* Menu.xcassets */; };
 		6651CA39D6061C766D12160F /* Pods_iBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D46C88132DD0704CCF7D4A /* Pods_iBase.framework */; };
 /* End PBXBuildFile section */
 
@@ -139,6 +144,11 @@
 		4FD6DCC326B9EE0C00C0A35C /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 		4FD6DCCA26BAB15600C0A35C /* MenuBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarCell.swift; sourceTree = "<group>"; };
 		4FD6DCCC26BABC2500C0A35C /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		4FD6DCCE26BC3C7600C0A35C /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		4FD6DCD026BC3DA100C0A35C /* MenuSubViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSubViewCell.swift; sourceTree = "<group>"; };
+		4FD6DCD326BD2C9300C0A35C /* SlideCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideCollection.swift; sourceTree = "<group>"; };
+		4FD6DCD526BD2D5100C0A35C /* SlideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideCell.swift; sourceTree = "<group>"; };
+		4FD6DCD726BD9ED500C0A35C /* Menu.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Menu.xcassets; sourceTree = "<group>"; };
 		7E8B6249AC446625225D9549 /* Pods-iBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBase.debug.xcconfig"; path = "Target Support Files/Pods-iBase/Pods-iBase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -225,6 +235,7 @@
 		3BD3A5D026950EF5008257FC /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				4FD6DCD226BD2C7000C0A35C /* CustomSlideCollection */,
 				4F8CBDF026B7CB2800677E12 /* CollectionView */,
 				4F8CBDED26B6EAAA00677E12 /* MenuTop */,
 				4FB539C926B1E4C600BA3C8C /* Stretchy */,
@@ -371,6 +382,8 @@
 				4FD6DCC326B9EE0C00C0A35C /* MenuBar.swift */,
 				4FD6DCCA26BAB15600C0A35C /* MenuBarCell.swift */,
 				4FD6DCCC26BABC2500C0A35C /* MenuButton.swift */,
+				4FD6DCCE26BC3C7600C0A35C /* MenuBarView.swift */,
+				4FD6DCD026BC3DA100C0A35C /* MenuSubViewCell.swift */,
 			);
 			path = MenuTop;
 			sourceTree = "<group>";
@@ -415,6 +428,16 @@
 				4FB539CE26B2A46A00BA3C8C /* StretchyHeaderLayout.swift */,
 			);
 			path = Stretchy;
+			sourceTree = "<group>";
+		};
+		4FD6DCD226BD2C7000C0A35C /* CustomSlideCollection */ = {
+			isa = PBXGroup;
+			children = (
+				4FD6DCD326BD2C9300C0A35C /* SlideCollection.swift */,
+				4FD6DCD526BD2D5100C0A35C /* SlideCell.swift */,
+				4FD6DCD726BD9ED500C0A35C /* Menu.xcassets */,
+			);
+			path = CustomSlideCollection;
 			sourceTree = "<group>";
 		};
 		6A6CDB1E2FCEAB520CF4C487 /* Pods */ = {
@@ -503,6 +526,7 @@
 				3B1FD915269262FC0087D3E9 /* LaunchScreen.storyboard in Resources */,
 				3BD3A5E526950FD0008257FC /* Login.xcassets in Resources */,
 				4FB539BF26B16D9F00BA3C8C /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				4FD6DCD826BD9ED500C0A35C /* Menu.xcassets in Resources */,
 				3B1FD912269262FC0087D3E9 /* Assets.xcassets in Resources */,
 				3BD3A5E926950FE3008257FC /* Register.xcassets in Resources */,
 				3BD3A5D726950F54008257FC /* Launch.storyboard in Resources */,
@@ -591,11 +615,14 @@
 				4FB5399226AEF70F00BA3C8C /* Theme.swift in Sources */,
 				3BD3A5F326951054008257FC /* Register.swift in Sources */,
 				3BD3A5F92695107B008257FC /* SideMenu.swift in Sources */,
+				4FD6DCCF26BC3C7600C0A35C /* MenuBarView.swift in Sources */,
+				4FD6DCD126BC3DA100C0A35C /* MenuSubViewCell.swift in Sources */,
 				3BD3A5F12695104C008257FC /* Login.swift in Sources */,
 				4FB539A026AF291D00BA3C8C /* LangList.swift in Sources */,
 				3BD3A5FC2696FFE5008257FC /* Network.swift in Sources */,
 				4F8CBDEA26B6D9E600677E12 /* SecondTab.swift in Sources */,
 				3BD3A5E326950FA9008257FC /* Colors.swift in Sources */,
+				4FD6DCD426BD2C9300C0A35C /* SlideCollection.swift in Sources */,
 				4F7FD0F526AC0CA700BE5F3F /* Alert.swift in Sources */,
 				4F8CBDE826B6D9DB00677E12 /* FirstTab.swift in Sources */,
 				3B911035269C216800A046B2 /* Navbar.swift in Sources */,
@@ -622,6 +649,7 @@
 				4F8CBDF526B7D3DA00677E12 /* CollectionViewCell.swift in Sources */,
 				4FB5399926AF009700BA3C8C /* Languages.swift in Sources */,
 				3BD3A5D926950F62008257FC /* Launch.swift in Sources */,
+				4FD6DCD626BD2D5100C0A35C /* SlideCell.swift in Sources */,
 				4F4B284326A768AF0085DE14 /* Label.swift in Sources */,
 				3BAA1822269B48A50093BEDE /* AppRoot.swift in Sources */,
 				3BD3A5DB26950F84008257FC /* Views.swift in Sources */,

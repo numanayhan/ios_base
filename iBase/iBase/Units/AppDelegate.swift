@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = .black
         window?.makeKeyAndVisible()
         appRoot = AppRoot(window: window!)
-        appRoot?.login()
+        appRoot?.slide()
         UINavigationBar.appearance().isTranslucent = false
         UINavigationBar.appearance().barTintColor = .black
         return true

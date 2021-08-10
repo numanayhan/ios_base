@@ -40,9 +40,10 @@ class Login: UIViewController {
         
     }
     func layout(){
+        
         view.backgroundColor = UIColor.hex("#6D5EF7")
         view.addSubview(login)
-        login.active = true
+        login.active = false
         login.bgImageDeSelected = UIImage.init(named: "home")!
         login.bgImageSelected = UIImage.init(named: "homed")!
         login.anchor(top: view.topAnchor, left: view.leftAnchor, bottom: nil, right: nil, paddingTop:

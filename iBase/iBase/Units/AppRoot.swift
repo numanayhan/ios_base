@@ -91,4 +91,13 @@ class AppRoot {
         
         UINavigationBar.appearance().isTranslucent = false
     }
+    func slide(){
+        let root = DefaultNavigation(rootViewController: SlideCollection())
+        root.hide = true
+        window!.rootViewController = root
+        window?.backgroundColor = .black
+        window!.makeKeyAndVisible()
+        
+        UINavigationBar.appearance().isTranslucent = false
+    }
 }
