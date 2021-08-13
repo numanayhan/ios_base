@@ -10,16 +10,15 @@ import Alamofire
 import RxSwift
 import RxCocoa
 let baseURL = "https://dev-api.netcrm.dev"
-struct OAuthCredential: AuthenticationCredential {
+struct  AuthCredential: AuthenticationCredential {
     let accessToken: String
     let refreshToken: String
     let userID: String
     var expiration: Date
-
     // Require refresh if within 5 minutes of expiration
     var requiresRefresh: Bool { Date(timeIntervalSinceNow: 60 * 5) > expiration }
 }
-let credential = OAuthCredential(accessToken: "a0",
+let credential =  AuthCredential(accessToken: "a0",
                                  refreshToken: "r0",
                                  userID: "u0",
                                  expiration: Date(timeIntervalSinceNow: 60 * 60))
@@ -30,10 +29,15 @@ protocol AccessTokenStorage: AnyObject {
     var accessToken: JWT { get set }
 }
 
-final class RequestInterceptor: Alamofire.RequestInterceptor {
-
-    private let storage: AccessTokenStorage
-
+final class RequestInterceptor: Alamofire.RequestInterceptor,Authenticator {
+    func handleTokens(from callbackUrl: URL) {
+        print(callbackUrl.absoluteString)
+    }
+    
+    var retryLimit = 3
+    let storage: AccessTokenStorage
+    var lastProceededResponse: HTTPURLResponse?
+   
     init(storage: AccessTokenStorage) {
         self.storage = storage
     }
@@ -52,27 +56,21 @@ final class RequestInterceptor: Alamofire.RequestInterceptor {
     }
     func retry(_ request: Request, for session: Session, dueTo error: Error, completion: @escaping (RetryResult) -> Void) {
            guard let response = request.task?.response as? HTTPURLResponse, response.statusCode == 401 else {
-               /// The request did not fail due to a 401 Unauthorized response.
-               /// Return the original error and don't retry the request.
-            
+                
                return completion(.doNotRetryWithError(error))
            }
-        print("res",response)
-        
-//           refreshToken { [weak self] result in
-//               guard let self = self else { return }
-//
-//               switch result {
-//               case .success(let token):
-//                   self.storage.accessToken = token
-//                   /// After updating the token we can safely retry the original request.
-//                   completion(.retry)
-//               case .failure(let error):
-//                   completion(.doNotRetryWithError(error))
-//               }
-//           }
+        guard
+          lastProceededResponse != request.response,
+          request.retryCount < retryLimit,
+          let statusCode = request.response?.statusCode,
+          statusCode.isAuthenticationErrorCode()
+          else {
+            return completion(.doNotRetry)
+        }
+        lastProceededResponse = request.response
+        refreshToken { isSuccess in
+          isSuccess ? completion(.retry) : completion(.doNotRetry)
+        }
+         
     }
-//    func refreshToken() -> Void {
-//        return
-//    }
 }

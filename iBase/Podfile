@@ -20,6 +20,8 @@ target 'iBase' do
   #Request
   pod 'Alamofire', '~> 5.4'
   pod 'SwiftyJSON'
+  pod 'PromiseKit' 
+
   #Language 
   pod 'LanguageManager-iOS'
   # Pods for iBase

@@ -9,13 +9,15 @@ import UIKit
 import LanguageManager_iOS
  
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate{
+    
+    
 
     var window: UIWindow?
     var appRoot : AppRoot?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        
+       
         
         LanguageManager.shared.defaultLanguage = .en
         
@@ -23,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = .black
         window?.makeKeyAndVisible()
         appRoot = AppRoot(window: window!)
-        appRoot?.slide()
+        appRoot?.login()
         UINavigationBar.appearance().isTranslucent = false
         UINavigationBar.appearance().barTintColor = .black
         return true

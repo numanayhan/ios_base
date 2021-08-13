@@ -6,9 +6,9 @@
 //
 
 import UIKit
-
-class Login: UIViewController {
-
+import Alamofire
+class Login: UIViewController, TokenHandler  {
+    
     lazy var popup : UIView = {
        let view = UIView()
         view.addSubview(login)
@@ -31,13 +31,14 @@ class Login: UIViewController {
 //        btn.bgImageSelected = UIImage.init(named: "homed")!
 //        btn.selectedText = "Login"
 //        btn.setTitleColor(UIColor.red, for: .normal)
+        btn.addTarget(self, action: #selector(logined(_:)), for: .touchUpInside)
         return btn
     }()
+    let request = DefaultRequest()
     override func viewDidLoad() {
-        super.viewDidLoad()
-        
+        super.viewDidLoad() 
         layout()
-        
+         
     }
     func layout(){
         
@@ -49,6 +50,16 @@ class Login: UIViewController {
         login.anchor(top: view.topAnchor, left: view.leftAnchor, bottom: nil, right: nil, paddingTop:
                         self.view.frame.height / 2  - 20 , paddingLeft: self.view.frame.width / 2  - 27, paddingBottom: 0, paddingRight: 0, width: 90, height: 90)
         
+        
+    }
+    @objc func logined(_ sender:Any){
+       
+          
+        
+        print("login")
+        request.genericRequest(url: URL(string: "https://dev-api.netcrm.dev/Login")!, expecting: LoginPost.self, attendences: "e") { response in
+            print(response)
+        }
         
     }
  

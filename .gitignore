@@ -18,25 +18,13 @@
 *.dSYM
 *.ipa
 
-# Xcode
-xcuserdata/
-project.xcworkspace/
+# Xcode 
 build/
-DerivedData/ 
-./Pods
-/Pods  
-*.Pods
+DerivedData/
 Pods/
-*.xcodeproj/*
-*.xcodeproj/project.pbxproj
-*.xcodeproj/xcshareddata
-**/xcshareddata/WorkspaceSettings.xcsettings
-*.pbxuser
-xcuserdata/
-*.moved-aside 
-!default.pbxuser
-# build products
-build/
+*.Pods/*
+
+
 *.[oa]
 
 # repositories

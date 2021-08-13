@@ -2,6 +2,15 @@ PODS:
   - Alamofire (5.4.3)
   - CubeTransitionInfiniteViewSwift (1.0.4)
   - LanguageManager-iOS (1.2.5)
+  - PromiseKit (6.15.3):
+    - PromiseKit/CorePromise (= 6.15.3)
+    - PromiseKit/Foundation (= 6.15.3)
+    - PromiseKit/UIKit (= 6.15.3)
+  - PromiseKit/CorePromise (6.15.3)
+  - PromiseKit/Foundation (6.15.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.15.3):
+    - PromiseKit/CorePromise
   - Realm (10.11.0):
     - Realm/Headers (= 10.11.0)
   - Realm/Headers (10.11.0)
@@ -27,6 +36,7 @@ DEPENDENCIES:
   - Alamofire (~> 5.4)
   - CubeTransitionInfiniteViewSwift
   - LanguageManager-iOS
+  - PromiseKit
   - RealmSwift
   - RxCocoa
   - RxSwift
@@ -41,6 +51,7 @@ SPEC REPOS:
     - Alamofire
     - CubeTransitionInfiniteViewSwift
     - LanguageManager-iOS
+    - PromiseKit
     - Realm
     - RealmSwift
     - RxCocoa
@@ -57,6 +68,7 @@ SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
   CubeTransitionInfiniteViewSwift: 6b535b53bf138ff6d3ad7ae62c02402c9f259a2d
   LanguageManager-iOS: 049345fe4d1c5fbe22af93d438540917f4936359
+  PromiseKit: 3b2b6995e51a954c46dbc550ce3da44fbfb563c5
   Realm: 39ff23f0f709cd4ed93eb47ee6593c2158945b38
   RealmSwift: 42713e09a8631070d6c12c3c5fb22b8edc1daa41
   RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
@@ -69,6 +81,6 @@ SPEC CHECKSUMS:
   SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 14056fbcf5af8e43abb940526aab0b6d7d99b2d4
+PODFILE CHECKSUM: 1c2200840abe6d3eeb7b840863974cfc9b14ae0c
 
 COCOAPODS: 1.10.1

@@ -2,6 +2,7 @@ ${PODS_ROOT}/Target Support Files/Pods-iBase/Pods-iBase-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/CubeTransitionInfiniteViewSwift/CubeTransitionInfiniteViewSwift.framework
 ${BUILT_PRODUCTS_DIR}/LanguageManager-iOS/LanguageManager_iOS.framework
+${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework
 ${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
 ${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework
 ${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
